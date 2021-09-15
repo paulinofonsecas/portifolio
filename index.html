@@ -71,6 +71,7 @@
               console.log('New service worker available.');
               reg.update();
               waitForActivation(reg.installing);
+              
             } else {
               // Existing service worker is still good.
               console.log('Loading app from service worker.');
